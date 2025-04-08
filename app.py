@@ -53,7 +53,6 @@ if nav_selection == "Home":
             data=PDFbyte,
             file_name=resume_file.name,
             mime="application/octet-stream",
-            # mime="application/pdf"
             
         )
         st.write("📫", EMAIL)
